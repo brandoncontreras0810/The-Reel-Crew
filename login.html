@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Reel Crew: Login</title>
+    <meta charset="utf-8">
+    <!-- link to the external CSS file for font awesome icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        color: #ffffff;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background: url("imgs/cinema.jpg") no-repeat repeat;
+        background-size: cover;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .nav-header {
+        background: #ff0000;
+        height: 100px;
+        display: flex;
+      }
+
+      .nav-div {
+        margin: auto;
+      }
+
+      .logo-img {
+        width: 120px;
+        margin-left: 20px;
+      }
+
+      .search-icon {
+        margin: 30px;
+      }
+
+      .nav-bar {
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+      }
+
+      .nav-bar-link {
+        color: #020202;
+        font-size: 24px;
+        padding: 30px;
+      }
+
+      .main-header {
+        background: url("imgs/cinema-4153289_1280.jpg") repeat;
+        background-size: contain;
+        height: 250px;
+        max-width: 100%;
+      }
+
+      .main-header-title {
+        text-align: center;
+        font-size: 2.5em;
+        color: #f7f8f9;
+        text-transform: uppercase;
+        font-weight: normal;
+        padding-left: 75px;
+        text-shadow: 2px 2px 5px rgb(5, 4, 4);
+        margin: 0;
+      }
+
+      .main-header-intro {
+        line-height: 1.5em;
+        width: 50%;
+        margin: auto;
+        padding: 40px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+      }
+      .intro {
+        width: 60%;
+        margin: auto;
+      }
+
+      .account {
+        margin: 30px;
+      }
+
+      input[type=text],
+      input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+
+      input[type=text]:focus,
+      input[type=password]:focus {
+        background-color: #ffffff;
+        outline: none;
+      }
+
+      hr {
+        border: 1px solid #000000;
+        margin-bottom: 25px;
+      }
+
+      button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+
+      button:hover {
+        opacity: 1;
+      }
+
+      a:hover {
+        background-color: white;
+      }
+
+      .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+      }
+
+      .cancelbtn,
+      .signupbtn {
+        float: left;
+        width: 50%;
+      }
+      .container {
+        padding: 16px;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      @media screen and (max-width: 300px) {
+
+        .cancelbtn,
+        .signupbtn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-header">
+      <img class="logo-img" src="imgs/movieroll1.jpg" alt="REEL">
+      <div class="nav-div">
+        <ul class="nav-bar">
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="Index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="Genres.html">Genres</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="login.html">Login</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rogerebert.com/">Ebert</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://letterboxd.com/">Letter</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rottentomatoes.com/">RttnToms</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rollingstone.com/">Rollinstones</a>
+          </li>
+        </ul>
+        <div class="w3-dropdown-hover w3-hide-large w3-hide-medium">
+          <button class="w3-button w3-xxlarge">Content</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-large w3-hide-medium">
+            <a href="Index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="Genres.html" class="w3-bar-item w3-button">Genres</a>
+            <a href="login.html" class="w3-bar-item w3-button">Account</a>
+            <a href="https://www.rottentomatoes.com/" class="w3-bar-item w3-button">RttnToms</a>
+            <a href="https://www.rogerebert.com/" class="w3-bar-item w3-button">Ebert</a>
+            <a href="https://www.rollingstone.com/" class="w3-bar-item w3-button">Rollinstones</a>
+            <a href="https://letterboxd.com/" class="w3-bar-item w3-button">Letter</a>
+          </div>
+        </div>
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+      <div class="account">
+        <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="main-header"></div>
+    <form action="success.html" style="border:1px solid #ccc">
+      <div class="container">
+        <h1>Login</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter Email" id="email" required>
+        <label for="psw">
+        Password
+        </label>
+        <input type="password" placeholder="Enter Password" id="psw" required>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me </label>
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>. </p>
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Login</button>
+        </div>
+      </div>
+    </form>
+    <!-- End of class .box -->
+  </body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Reel Crew: Genres</title>
+    <meta charset="utf-8">
+    <!-- link to the external CSS file for font awesome icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        color: #ffffff;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background: url("imgs/cinema.jpg") no-repeat;
+        background-size: cover;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .nav-header {
+        background: #ff0000;
+        height: 100px;
+        display: flex;
+      }
+
+      .nav-div {
+        margin: auto;
+      }
+
+      .logo-img {
+        width: 120px;
+        margin-left: 20px;
+      }
+
+      .search-icon {
+        margin: 30px;
+      }
+
+      .nav-bar {
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+      }
+
+      .nav-bar-link {
+        color: #020202;
+        font-size: 24px;
+        padding: 30px;
+      }
+
+      .main-header {
+        background: url("imgs/cinema-4153289_1280.jpg") repeat;
+        background-size: contain;
+        height: 250px;
+        max-width: 100%;
+      }
+
+      .main-header-title {
+        text-align: center;
+        color: #f7f8f9;
+        text-transform: uppercase;
+        font-weight: normal;
+        text-shadow: 2px 2px 5px rgb(5, 4, 4);
+        margin: 0;
+      }
+
+      .main-header-intro {
+        line-height: 1.5em;
+        width: 50%;
+        margin: auto;
+        padding: 40px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .intro {
+        width: 60%;
+        margin: auto;
+      }
+
+      .box {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 20px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 50px;
+        text-align: center;
+      }
+
+      .account {
+        margin: 30px;
+      }
+
+      .bars {
+        margin: 30px;
+      }
+
+      a:hover {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-header">
+      <img class="logo-img" src="imgs/movieroll1.jpg" alt="REEL">
+      <div class="nav-div">
+        <ul class="nav-bar">
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="Index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="Genres.html">Genres</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="login.html">Login</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rogerebert.com/">Ebert</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://letterboxd.com/">Letter</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rottentomatoes.com/">RttnToms</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rollingstone.com/">Rollinstones</a>
+          </li>
+        </ul>
+        <div class="w3-dropdown-hover w3-hide-large w3-hide-medium">
+          <button class="w3-button w3-xxlarge">Content</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-large w3-hide-medium">
+            <a href="Index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="Genres.html" class="w3-bar-item w3-button">Genres</a>
+            <a href="login.html" class="w3-bar-item w3-button">Account</a>
+            <a href="https://www.rottentomatoes.com/" class="w3-bar-item w3-button">RttnToms</a>
+            <a href="https://www.rogerebert.com/" class="w3-bar-item w3-button">Ebert</a>
+            <a href="https://www.rollingstone.com/" class="w3-bar-item w3-button">Rollinstones</a>
+            <a href="https://letterboxd.com/" class="w3-bar-item w3-button">Letter</a>
+          </div>
+        </div>
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+      <div class="account">
+        <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="main-header">
+      <h1 class="main-header-title">Genres <i class="fa fa-forward" aria-hidden="true"></i></h1>
+      <div class="main-header-intro"> Cinema and it's very distinct genres all on one page! </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-third ">
+        <h2>Action/Adventure</h2>
+        <img src="imgs/action.jpg" alt="action" class="w3-hover-sepia">
+        <p class="w3-xlarge"> A rollercoaster ride that the viewer can experience from their chair! </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Animated/Animation</h2>
+        <img src="imgs/animation.jpg" alt="Animated" class="w3-hover-sepia">
+        <p class="w3-xlarge"> Pictures coming to life in a genre that is evolving every single day. </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Comedy</h2>
+        <img src="imgs/comedy.jpg" alt="chap" class="w3-hover-sepia">
+        <p class="w3-xlarge"> A session of laughs and jokes that last decades and eras </p>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h2>Crime</h2>
+        <img src="imgs/crime.jpg" alt="crime" class="w3-hover-sepia">
+        <p class="w3-xlarge"> A genre filled with the taboos in society or gangster pictures. </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Drama</h2>
+        <img src="imgs/drama.jpg" alt="drama" class="w3-hover-sepia">
+        <p class="w3-xlarge"> All the tea you want on screen and to watch at anytime! </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Experimental</h2>
+        <img src="imgs/experiemental.jpg" alt="experiemental" class="w3-hover-sepia">
+        <p class="w3-xlarge"> A deviantion from the norm for a certain style and statement to be made. </p>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h2>Fantasy</h2>
+        <img src="imgs/fantasy.jpg" alt="fantasy" class="w3-hover-sepia">
+        <p class="w3-xlarge"> Imaginations running wild from the minds of the director and crew. </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Horror</h2>
+        <img src="imgs/horror.jpg" alt="horror" class="w3-hover-sepia">
+        <p class="w3-xlarge"> The ideas and dreams of some of cinema's greatest minds to make the ultimate of terror. </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Romance</h2>
+        <img src="imgs/romance.jpg" alt="true" class="w3-hover-sepia">
+        <p class="w3-xlarge"> Stories to make the heart grow fonder or get jealous of. </p>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h2>Science Fiction/Sci-Fi</h2>
+        <img src="imgs/science.jpg" alt="science" class="w3-hover-sepia">
+        <p class="w3-xlarge"> The combination of science and fiction to create some of the most wild experiences. </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Thriller</h2>
+        <img src="imgs/thriller.jpg" alt="thriller" class="w3-hover-sepia">
+        <p class="w3-xlarge"> Not to get the ultimate terror, but to get a sense of suspense. </p>
+      </div>
+      <!-- End of class .card -->
+      <div class="w3-third">
+        <h2>Western</h2>
+        <img src="imgs/western.jpg" alt="wayne" class="w3-hover-sepia">
+        <p class="w3-xlarge"> The west,gunsligers, and smoking that actually looks cool. </p>
+      </div>
+    </div>
+    <!-- End of class .box -->
+  </body>
+</html>

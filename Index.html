@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Reel Crew: Home</title>
+    <meta charset="utf-8">
+    <!-- link to the external CSS file for font awesome icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        color: #ffffff;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        background: url("imgs/cinema.jpg") no-repeat;
+        background-size: cover;
+      }
+
+      img {
+        max-width: 80%;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .nav-header {
+        background: #ff0000;
+        height: 100px;
+        display: flex;
+      }
+
+      .nav-div {
+        margin: auto;
+      }
+
+      .logo-img {
+        width: 120px;
+        margin-left: 20px;
+      }
+
+      .search-icon {
+        margin: 30px;
+      }
+
+      .nav-bar {
+        list-style-type: none;
+        display: flex;
+        text-align: center;
+      }
+
+      .nav-bar-link {
+        color: #020202;
+        font-size: 24px;
+        padding: 30px;
+      }
+
+      .main-header {
+        background: url("imgs/cinema-4153289_1280.jpg") repeat;
+        background-size: contain;
+        height: 250px;
+        max-width: 100%;
+      }
+
+      .main-header-title {
+        text-align: center;
+        color: #f7f8f9;
+        text-transform: uppercase;
+        font-weight: normal;
+        text-shadow: 2px 2px 5px rgb(5, 4, 4);
+        margin: 0;
+      }
+
+      .main-header-intro {
+        line-height: 1.5em;
+        margin: auto;
+        padding: 40px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .intro {
+        width: 60%;
+        margin: auto;
+        font-size: 25px;
+      }
+
+      .button {
+        display: block;
+        color: rgb(8, 3, 3);
+        background-color: rgb(231, 17, 17);
+        padding: 10px;
+        width: 100px;
+        margin: auto;
+        border: solid;
+        border-radius: 5px;
+        box-shadow: 1px 1px rgb(74, 70, 70);
+        font-size: 20px;
+      }
+
+      .account {
+        margin: 30px;
+      }
+
+
+      .box {
+        background-color: lightgrey;
+        border: 15px solid rgb(0, 0, 0);
+        padding: 50px;
+        margin: auto;
+        font-size: large;
+        color: #000000;
+      }
+
+      a:hover {
+        background-color: white;
+      }
+      .Dropdown{
+        margin: 30px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-header w3-small">
+      <img class="logo-img" src="imgs/movieroll1.jpg" alt="REEL">
+      <div class="nav-div">
+        <ul class="nav-bar w3-large ">
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="Index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="Genres.html">Genres</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="login.html">Login</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rogerebert.com/">Ebert</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://letterboxd.com/">Letter</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rottentomatoes.com/">RttnToms</a>
+          </li>
+          <li>
+            <a class="nav-bar-link w3-hide-small" href="https://www.rollingstone.com/">Rollinstones</a>
+          </li>
+        </ul>
+        <div class="w3-dropdown-hover w3-hide-large w3-hide-medium">
+          <button class="w3-button w3-xxlarge">Content</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-hide-large w3-hide-medium">
+            <a href="Index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="Genres.html" class="w3-bar-item w3-button">Genres</a>
+            <a href="login.html" class="w3-bar-item w3-button">Account</a>
+            <a href="https://www.rottentomatoes.com/" class="w3-bar-item w3-button">RttnToms</a>
+            <a href="https://www.rogerebert.com/" class="w3-bar-item w3-button">Ebert</a>
+            <a href="https://www.rollingstone.com/" class="w3-bar-item w3-button">Rollinstones</a>
+            <a href="https://letterboxd.com/" class="w3-bar-item w3-button">Letter</a>
+          </div>
+        </div>
+      </div>
+      <div class="search-icon">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+      <div class="account">
+        <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="main-header w3-xlarge">
+      <h1 class="main-header-title w3-xxlarge">The Reel Crew <i class="fa fa-forward" aria-hidden="true"></i></h1>
+      <div class="main-header-intro"> New reviews posted everyday by cinephiles and casuals on brand new movies to cult classics.</div>
+    </div>
+
+    <div class="Account">
+      <h2>Join today to gain access to:</h2>
+    </div>
+    <div class="intro">
+      <p>Hundreds and thousands of movies being reviewed and talked about everyday in their own page!</p>
+      <a href="signup.html" class="button">Sign up!</a>
+      <h2>This week's movie spotlight</h2>
+    </div>
+    <div class="intro">
+      <p>(Personally curated)</p>
+    </div>
+    <div class="box w3-medium">
+      <div class="w3-row">
+        <h2 class="w3-hide-large w3-hide-medium">Click for the full review!</h2>
+        <div class="w3-third w3-container w3-xlarge">
+          <h3>The Thing(1982)</h3>
+          <a href="thing.html">
+            <img src="imgs/alien.jpg" alt="Thing" class="w3-hover-sepia">
+          </a>
+        </div>
+        <!-- End of class .card -->
+        <div class="w3-third w3-container w3-xlarge">
+          <h3>After Hours(1985)</h3>
+          <a href="hours.html">
+            <img src="imgs/hours.jpg" alt="After" class="w3-hover-sepia">
+            <p class="w3-hide-small"> Click for the full review! </p>
+          </a>
+        </div>
+        <!-- End of class .card -->
+        <div class="w3-third w3-container w3-xlarge">
+          <h3>Lawrence of Arabia(1962)</h3>
+          <a href="arabia.html">
+            <img src="imgs/Arabia.jpg" alt="Lawrence of Arabia" class="w3-hover-sepia">
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
